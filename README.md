@@ -1,12 +1,10 @@
-# Bike Store Sales Analytics
+Bike Store Sales Analytics
 
-Projeto de análise de dados desenvolvido como parte da certificação **Analytics Engineer (Indicium Academy)**.
+Projeto de análise de dados desenvolvido como parte da certificação Analytics Engineer (Indicium Academy).
 
 O objetivo do projeto foi analisar dados de vendas de uma loja de bicicletas para gerar **insights de negócio através de dashboards analíticos**.
 
----
-
-# Objetivo do Projeto
+Objetivo do Projeto
 
 Analisar o comportamento de vendas da loja e responder perguntas de negócio relacionadas a:
 
@@ -16,11 +14,9 @@ Analisar o comportamento de vendas da loja e responder perguntas de negócio rel
 - desempenho geográfico de vendas
 - impacto de promoções
 
----
+Principais Análises
 
-# Principais Análises
-
-### 1️⃣ Compras por Produto
+Compras por Produto
 Análise do número de pedidos, quantidade comprada e valor total, com filtros por:
 
 - ano
@@ -30,9 +26,7 @@ Análise do número de pedidos, quantidade comprada e valor total, com filtros p
 - país / estado
 - status do pedido
 
----
-
-### 2️⃣ Ticket Médio por Produto
+Ticket Médio por Produto
 
 Análise do ticket médio considerando:
 
@@ -41,9 +35,7 @@ Análise do ticket médio considerando:
 - estado
 - cidade
 
----
-
-### 3️⃣ Valor Total por Cliente
+Valor Total por Cliente
 
 Segmentação de receita considerando:
 
@@ -53,9 +45,7 @@ Segmentação de receita considerando:
 - período (ano/mês)
 - localização geográfica
 
----
-
-### 4️⃣ Receita por Cidade
+Receita por Cidade
 
 Análise geográfica do volume financeiro com filtros por:
 
@@ -65,24 +55,18 @@ Análise geográfica do volume financeiro com filtros por:
 - período
 - localização
 
----
-
-### 5️⃣ Evolução de Pedidos ao Longo dos Anos
+Evolução de Pedidos ao Longo dos Anos
 
 Análise temporal considerando:
 
 - número total de pedidos
 - valor movimentado ao longo dos anos
 
----
-
-### 6️⃣ Produtos Mais Vendidos em Promoção
+Produtos Mais Vendidos em Promoção
 
 Identificação de produtos com maior volume de vendas durante campanhas promocionais.
 
----
-
-# Ferramentas Utilizadas
+Ferramentas Utilizadas
 
 - SQL
 - dbt
@@ -90,17 +74,13 @@ Identificação de produtos com maior volume de vendas durante campanhas promoci
 - Business Intelligence
 - Dashboard Analytics
 
----
-
-# Estrutura do Projeto
+Estrutura do Projeto
 
 models/
 staging/
 marts/
 
----
-
-# Insights Gerados
+Insights Gerados
 
 O projeto permitiu identificar padrões de compra, comportamento regional de vendas e impacto de promoções no volume de pedidos.
 

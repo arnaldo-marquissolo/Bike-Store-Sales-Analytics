@@ -1,15 +1,107 @@
-Welcome to your new dbt project!
+# Bike Store Sales Analytics
 
-### Using the starter project
+Projeto de análise de dados desenvolvido como parte da certificação **Analytics Engineer (Indicium Academy)**.
 
-Try running the following commands:
-- dbt run
-- dbt test
+O objetivo do projeto foi analisar dados de vendas de uma loja de bicicletas para gerar **insights de negócio através de dashboards analíticos**.
 
+---
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+# Objetivo do Projeto
+
+Analisar o comportamento de vendas da loja e responder perguntas de negócio relacionadas a:
+
+- volume de pedidos
+- ticket médio
+- comportamento de clientes
+- desempenho geográfico de vendas
+- impacto de promoções
+
+---
+
+# Principais Análises
+
+### 1️⃣ Compras por Produto
+Análise do número de pedidos, quantidade comprada e valor total, com filtros por:
+
+- ano
+- tipo de produto
+- tipo de cartão
+- titular do cartão
+- país / estado
+- status do pedido
+
+---
+
+### 2️⃣ Ticket Médio por Produto
+
+Análise do ticket médio considerando:
+
+- ano
+- país
+- estado
+- cidade
+
+---
+
+### 3️⃣ Valor Total por Cliente
+
+Segmentação de receita considerando:
+
+- produto
+- tipo de cartão
+- motivo da venda
+- período (ano/mês)
+- localização geográfica
+
+---
+
+### 4️⃣ Receita por Cidade
+
+Análise geográfica do volume financeiro com filtros por:
+
+- produto
+- tipo de cartão
+- motivo da venda
+- período
+- localização
+
+---
+
+### 5️⃣ Evolução de Pedidos ao Longo dos Anos
+
+Análise temporal considerando:
+
+- número total de pedidos
+- valor movimentado ao longo dos anos
+
+---
+
+### 6️⃣ Produtos Mais Vendidos em Promoção
+
+Identificação de produtos com maior volume de vendas durante campanhas promocionais.
+
+---
+
+# Ferramentas Utilizadas
+
+- SQL
+- dbt
+- Data Modeling
+- Business Intelligence
+- Dashboard Analytics
+
+---
+
+# Estrutura do Projeto
+
+models/
+staging/
+marts/
+
+---
+
+# Insights Gerados
+
+O projeto permitiu identificar padrões de compra, comportamento regional de vendas e impacto de promoções no volume de pedidos.
+
+Essas análises auxiliam na tomada de decisão estratégica em áreas como marketing, pricing e planejamento comercial.
